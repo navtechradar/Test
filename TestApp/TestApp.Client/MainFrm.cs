@@ -3,7 +3,6 @@ using System.Globalization;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Windows.Forms;
-using TestApp.Common.Entities;
 using TestApp.Entity.Service.Interfaces;
 
 namespace TestApp.Client

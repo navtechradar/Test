@@ -34,7 +34,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
@@ -74,10 +73,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TestApp.Common\TestApp.Common.csproj">
-      <Project>{8a103633-fc49-4726-ae0d-6542a3243ccc}</Project>
-      <Name>TestApp.Common</Name>
-    </ProjectReference>
     <ProjectReference Include="..\TestApp.Entity.Service\TestApp.Entity.Service.csproj">
       <Project>{5EA65A26-45B2-4E7A-84E1-1119BFD8C491}</Project>
       <Name>TestApp.Entity.Service</Name>
